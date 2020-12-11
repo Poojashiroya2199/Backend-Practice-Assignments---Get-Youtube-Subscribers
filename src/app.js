@@ -1,4 +1,3 @@
-
 const express = require('express');
 const app = express()
 const subscribers=require('./models/subscribers');
@@ -25,16 +24,4 @@ app.get('/subscribers/:id',(req,res)=>{
     return;
 })
 app.listen(3000,()=>console.log("listening.."));
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = app;
